@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "godot": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${CODEBUDDY_PLUGIN_ROOT}/server.mjs"
+      ],
+      "cwd": "${CODEBUDDY_PLUGIN_ROOT}",
+      "env": {},
+      "defer_loading": false,
+      "runtime": {
+        "type": "node",
+        "version": "22"
+      },
+      "x-workbuddy": {
+        "displayName": {
+          "zh": "Godot 编辑器",
+          "en": "Godot Editor"
+        },
+        "description": {
+          "zh": "连接本机正在运行的 Godot 4.7 编辑器；会自动拉起 Godot AI 后端。",
+          "en": "Connects to the running Godot 4.7 editor; starts the Godot AI backend automatically."
+        },
+        "auth": {
+          "type": "none"
+        }
+      }
+    }
+  }
+}

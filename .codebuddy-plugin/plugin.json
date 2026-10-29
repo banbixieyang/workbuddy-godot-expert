@@ -1,0 +1,61 @@
+{
+  "name": "godot-game-expert",
+  "version": "1.2.1",
+  "description": "Godot 4.7 game creation expert: builds scenes, writes GDScript, wires signals, runs and verifies games in a live editor over MCP.",
+  "author": {
+    "name": "banbixieyang",
+    "email": "18237692356@163.com"
+  },
+  "agents": [
+    "./agents/godot-game-expert.md"
+  ],
+  "expertType": "agent",
+  "agentName": "godot-game-expert",
+  "displayName": {
+    "en": "Godot Game Maker",
+    "zh": "游戏制作人"
+  },
+  "profession": {
+    "en": "Godot Game Developer",
+    "zh": "Godot 游戏开发工程师"
+  },
+  "displayDescription": {
+    "en": "Drives a live Godot 4.7 editor over MCP: scaffolds scenes and nodes, writes GDScript, wires signals, saves, runs and verifies the game. Turns one sentence into a playable prototype.",
+    "zh": "通过 MCP 直接操作本机 Godot 4.7 编辑器，从零搭场景、写脚本、连信号，并运行验证，一句话做出可玩原型。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "03-GameSpatial",
+  "defaultInitPrompt": {
+    "en": "Create a 480x720 2D dodge game where the player moves left and right, respawns on obstacles, and wins at the goal",
+    "zh": "新建一个 480×720 的 2D 躲避游戏，玩家左右移动，碰到障碍重生，走到终点显示胜利"
+  },
+  "plugin": "godot-game-expert",
+  "tags": [
+    { "en": "Godot", "zh": "Godot" },
+    { "en": "Game Development", "zh": "游戏开发" },
+    { "en": "2D Prototype", "zh": "2D 原型" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Create a 480x720 2D dodge game where the player moves left and right, respawns on obstacles, and wins at the goal",
+      "zh": "新建一个 480×720 的 2D 躲避游戏，玩家左右移动，碰到障碍重生，走到终点显示胜利"
+    },
+    {
+      "en": "Add jumping to the player and limit it to a double jump",
+      "zh": "给玩家角色加上跳跃，并限制二段跳"
+    },
+    {
+      "en": "Restyle this scene's UI with a dark theme and a restart button",
+      "zh": "把这个场景的 UI 改成深色主题，加一个重新开始按钮"
+    }
+  ],
+  "skills": [
+    "./skills/godot-game-maker"
+  ],
+  "dependencies": {
+    "mcpServers": "./.mcp.json"
+  }
+}
+
+
+

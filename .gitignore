@@ -1,0 +1,6 @@
+node_modules/
+*.zip
+godot-path.txt
+.DS_Store
+Thumbs.db
+
